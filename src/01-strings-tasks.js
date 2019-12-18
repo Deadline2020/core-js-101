@@ -38,6 +38,7 @@ function getStringLength(value) {
   return value.length;
 }
 
+
 /**
  * Returns the result of string template and given parameters firstName and lastName.
  * Please do not use concatenation, use template string :
@@ -54,6 +55,7 @@ function getStringLength(value) {
 function getStringFromTemplate(firstName, lastName) {
   return `Hello, ${firstName} ${lastName}!`;
 }
+
 
 /**
  * Extracts a name from template string 'Hello, First_Name Last_Name!'.
@@ -84,6 +86,7 @@ function getFirstChar(value) {
   return value[0];
 }
 
+
 /**
  * Removes a leading and trailing whitespace characters from string.
  *
@@ -98,6 +101,7 @@ function getFirstChar(value) {
 function removeLeadingAndTrailingWhitespaces(value) {
   return value.trim();
 }
+
 
 /**
  * Returns a string that repeated the specified number of times.
@@ -114,6 +118,7 @@ function repeatString(value, count) {
   return value.repeat(count);
 }
 
+
 /**
  * Remove the first occurrence of string inside another string
  *
@@ -129,6 +134,7 @@ function repeatString(value, count) {
 function removeFirstOccurrences(str, value) {
   return str.replace(value, '');
 }
+
 
 /**
  * Remove the first and last angle brackets from tag string
@@ -160,6 +166,7 @@ function convertToUpperCase(str) {
   return str.toUpperCase();
 }
 
+
 /**
  * Extracts e-mails from single string with e-mails list delimeted by semicolons
  *
@@ -178,6 +185,7 @@ function convertToUpperCase(str) {
 function extractEmails(str) {
   return str.split(';');
 }
+
 
 /**
  * Returns the string representation of rectangle with specified width and height
@@ -241,6 +249,7 @@ function encodeToRot13(str) {
 
   return result;
 }
+
 
 /**
  * Returns true if the value is string; otherwise false.
